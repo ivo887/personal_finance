@@ -5,9 +5,11 @@ A robust, desktop-based personal finance management application built with Java 
 ## ✨ Key Features
 
 * **Multi-User Architecture:** Secure registration and login system.
+* 
   <img width="984" height="742" alt="image" src="https://github.com/user-attachments/assets/6901688c-c194-4b41-9754-9de194796b7c" />
 
 * **Interactive Dashboard:** A clean, intuitive Java Swing GUI with a `CardLayout` for seamless screen navigation.
+* 
   <img width="983" height="742" alt="image" src="https://github.com/user-attachments/assets/443bcab1-f465-4b68-adf9-b03d66a708b6" />
 
 * **Dynamic Balance Calculation:** Net balances are calculated in real-time directly within the MySQL database using advanced SQL aggregation, preventing data desynchronization.
