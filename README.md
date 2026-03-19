@@ -42,7 +42,7 @@ The application relies on a strictly typed, normalized relational database to de
 ### Installation
 1. Clone this repository.
 2. Start the **MySQL** module in the XAMPP Control Panel.
-3. Open `http://localhost/phpmyadmin` and create a database named `personal_finance`.
+3. Open `http://localhost/phpmyadmin` and create a database named `personal_finance`(an example database has been attached in the `...\personal_finance\sql_database`).
 4. Run the master SQL initialization script (found in the project notes/documentation) to generate the tables.
 5. Open the project in IntelliJ IDEA.
 6. Go to **File > Project Structure > Modules > Dependencies**, click the `+` icon, and link the downloaded `mysql-connector-j-x.x.x.jar` file.
