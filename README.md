@@ -1,15 +1,19 @@
-# 🏦 Personal Finance Manager Pro
+# Personal Finance Manager Pro
 
 A robust, desktop-based personal finance management application built with Java and MySQL. This application features a fully normalized relational database and a modern Java Swing Graphical User Interface (GUI), allowing users to securely track their income and expenses while maintaining strict data integrity.
 
 ## ✨ Key Features
 
 * **Multi-User Architecture:** Secure registration and login system.
+  <img width="984" height="742" alt="image" src="https://github.com/user-attachments/assets/6901688c-c194-4b41-9754-9de194796b7c" />
+
 * **Interactive Dashboard:** A clean, intuitive Java Swing GUI with a `CardLayout` for seamless screen navigation.
+  <img width="983" height="742" alt="image" src="https://github.com/user-attachments/assets/443bcab1-f465-4b68-adf9-b03d66a708b6" />
+
 * **Dynamic Balance Calculation:** Net balances are calculated in real-time directly within the MySQL database using advanced SQL aggregation, preventing data desynchronization.
 * **Transaction Ledger:** View a complete, scrollable history of all deposits and expenses.
 * **Financial Data Integrity (Soft Deletes):** Transactions are removed from the user's view and balance calculations via a boolean flag (`is_deleted`), preserving the underlying database audit trail.
-* **SQL Injection Protection:** All database interactions strictly utilize JDBC `PreparedStatement`.
+  
 
 ## 🛠️ Tech Stack
 
@@ -42,7 +46,3 @@ The application relies on a strictly typed, normalized relational database to de
 6. Go to **File > Project Structure > Modules > Dependencies**, click the `+` icon, and link the downloaded `mysql-connector-j-x.x.x.jar` file.
 7. Run the `FinanceGUI.java` file to launch the application.
 
-## 🔮 Future Enhancements
-* Cryptographic password hashing (e.g., BCrypt).
-* CSV data export functionality for spreadsheet analysis.
-* Visual charts for monthly expense breakdowns.
